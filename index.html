@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            justify-content: center; /* Centers content horizontally */
+            align-items: center;     /* Centers content vertically */
+            font-family: Arial, sans-serif; /* Font for readability */
+        }
+        .parallax {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Ensures text is centered vertically and horizontally */
+        }
+        .text-section {
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            text-align: center;  /* Centers the text inside the section */
+        }
+        .image1 { background-image: url('image1.jpg'); }
+        .image2 { background-image: url('image2.jpg'); }
+        .image3 { background-image: url('image3.jpg'); }
+        .image4 { background-image: url('image4.jpg'); }
+        .image5 { background-image: url('image5.jpg'); }
+        .image6 { background-image: url('image6.jpg'); }
+        .image7 { background-image: url('image7.jpg'); }
+        .image8 { background-image: url('image8.jpg'); }
+        .image9 { background-image: url('image9.jpg'); }
+        .image10 { background-image: url('image10.jpg'); }
+        .image11 { background-image: url('image11.jpg'); }
+
+        .last-slide {
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional background color */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically and horizontally */
+    text-align: center;
+}
+
+        .last-slide h1 {
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .last-slide p {
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .last-slide .content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax image1"></div>
+    <div class="text-section">Genocide, conflict and crisis continue to force people from their homes.</div>
+    <div class="parallax image2"></div>
+    <div class="text-section">Leaving them uncertain about their future.</div>
+    <div class="parallax image3"></div>
+    <div class="text-section">Left behind, centuries-old monuments and artifacts face the threat of destruction and eraser.</div>
+    <div class="parallax image4"></div>
+    <div class="text-section">On November 2020, Azerbaijan attacked the ancestral Armenian lands of the Republic of Artsakh and took control of the region afterward.</div>
+    <div class="parallax image5"></div>
+    <div class="text-section">Many had to leave their homes behind.</div>
+    <div class="parallax image6"></div>
+    <div class="text-section">Today, many museums in Artsakh are at risk of cultural cleansing.</div>
+    <div class="parallax image7"></div>
+    <div class="text-section">Over the centuries, Armenians have faced the shadow of erasure. Between 1915 and 1922, an estimated 1,500,000 Armenians perished in a genocide.</div>
+    <div class="parallax image8"></div>
+    <div class="text-section">The Armenian diaspora has spread across the world.</div>
+    <div class="parallax image9"></div>
+    <div class="text-section">Leaving their homes behind, many carried their cherished objects with them.</div>
+    <div class="parallax image10"></div>
+    <div class="text-section">Pictures, jewelry, books, and home decorations.</div>
+    <div class="parallax image11"></div>
+    <div class="text-section">What stories do such objects hold?</div>
+    <div class="parallax image1"></div>
+    <div class="text-section">This is their story.</div>
+    <div class="parallax image4"></div>
+    <div class="text-section">Made by people like you.</div>
+    <div class="parallax image6"></div>
+   
+    <div class="last-slide">
+        <div class="content">
+            <h1>What perspective are you participating from?</h1>
+            <a href="a.html">
+                <button>a. Diaspora of any culture or immigrant experience</button>
+            </a>
+            <a href="b.html">
+                <button>b. Armenian diaspora</button>
+            </a>
+            <a href="c.html">
+                <button>c. Have not personally experienced displacement</button>
+            </a>
+            <a href="d.html">
+                <button>d. Other</button>
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
